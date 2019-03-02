@@ -1,0 +1,51 @@
+.gandalf {
+  position: relative;
+  
+}
+
+.gandalf img{
+  position: relative;
+  opacity: 0.6;
+ 
+}
+
+.reward {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  background-color: white;
+  padding: 10px 50px 10px 50px;
+  sans-serif;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 10px;
+
+}
+
+.reward strong {
+  color:orange
+}
+
+.name {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.gandalf img:hover {
+  opacity: 1;
+}
+
+.gandalf:hover .reward {
+  display: none;
+}
+
+.gandalf:hover .name {
+  top: 60%;
+  left: 15%;
+  font-size: 60px;
+}
