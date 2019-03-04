@@ -1,3 +1,162 @@
+.nav-link {
+  color:white;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar-nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.navbar-nav a.active {
+  border-bottom: 3px solid white;
+}
+
+
+
+#Fellows {
+  background-image: url("Medias/images/bg_light.png");
+  padding: 2% 2% 2% 2%
+}
+
+#Reward {
+  background-image: url("Medias/images/bg_dark.png");
+  padding: 2% 2% 2% 2%
+}
+
+#Hunters {
+  background-image: url("Medias/images/bg_light.png");
+  padding: 2% 2% 2% 2%
+}
+
+#Ring {
+  background-image: url("Medias/images/bg_dark.png");
+  padding: 2% 2% 2% 2%
+}
+
+#MordorArmy {
+  background-image: url("Medias/images/bg_light.png");
+  padding: 2% 2% 2% 2%
+}
+
+#Contactus {
+  background-image: url("Medias/images/bg_dark.png");
+  padding: 2% 2% 2% 2%
+}
+
+#Footer {
+  background-color: #ff6600;
+  padding: 2% 2% 2% 2%;
+}
+
+hr.new1 {
+  margin: 0 20% 0 20%;
+  border: 3px solid #ff6600;
+  margin-top: -5px;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  color: white;
+}
+
+@font-face {
+  font-family: "partybusiness";
+  src: url("Medias/Font/Police texte/partybusiness.ttf");
+}
+
+@font-face {
+  font-family: "Aniron";
+  src: url("Medias/Font/Titre/anicb___.ttf");
+}
+
+body {
+  font-family: "partybusiness";
+  font-size: 25px;
+}
+
+
+h1 {
+  padding: 2% 0 2% 0;
+  font-family: "Aniron";
+  font-size: 25px;
+}
+
+h1.white {
+  color: white;
+}
+
+p.white {
+  color: white;
+}
+
+#army {
+  width: 100%;
+}
+
+.list-unstyled {
+  color:white;
+}
+
+a {
+  color:white;
+}
+
+.card-header {
+  background-color: #ff6600;
+  color: white;
+}
+
+.card {
+  margin-top: 3%;
+  
+}
+
+#sauronB {
+  background-color: black;
+  color: #ff6600 100%, 50%);
+}
+
+.card-body {
+  background-color: grey;
+  color:white;
+}
+
+.nav-link active {
+  background-color: transparent;
+  border-bottom: 3px solid #ff6600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.card-text {
+  color:black;
+}
+
 .gandalf {
   position: relative;
   
@@ -15,11 +174,10 @@
   left: 20%;
   background-color: white;
   padding: 10px 50px 10px 50px;
-  sans-serif;
   color: black;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 15px;
 
 }
 
@@ -31,9 +189,9 @@
   color: white;
   position: absolute;
   top: 50%;
-  left: 30%;
-  font-size: 30px;
-  font-family: sans-serif;
+  left: 25%;
+  font-size: 50px;
+  font-family: "partybusiness";
 }
 
 .gandalf img:hover {
