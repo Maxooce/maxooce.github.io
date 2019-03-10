@@ -92,6 +92,13 @@ hr.new1 {
   src: url("Medias/Font/Titre/anicb___.ttf");
 }
 
+@font-face {
+	font-family: 'symbole';
+	src: url("Medias/Font/Symbole/tnganb.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
   font-family: "partybusiness";
   font-size: 25px;
@@ -101,7 +108,7 @@ body {
 h1 {
   padding: 2% 0 2% 0;
   font-family: "Aniron";
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h1.white {
@@ -165,6 +172,12 @@ a {
 .gandalf img{
   position: relative;
   opacity: 0.6;
+  background-color: black;
+  filter: brightness(50%);
+-webkit-filter: brightness(50%);
+-moz-filter: brightness(50%);
+-o-filter: brightness(50%);
+-ms-filter: brightness(50%);
  
 }
 
@@ -203,7 +216,63 @@ a {
 }
 
 .gandalf:hover .name {
-  top: 60%;
-  left: 15%;
-  font-size: 60px;
+  top: 80%;
+  left: 35%;
+  font-size: 20px;
+}
+
+.mostwanted:hover,.mostdangerous:hover,.alreadycaptured:hover,.navsur:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+#pills-tab{
+	display: flex;
+    justify-content: center;
+}
+
+
+.mostwanted,.mostdangerous,.alreadycaptured {
+  color: grey;
+}
+
+.active {
+  color: orange;
+  text-decoration: underline;
+}
+
+span{
+	font-family:symbole, sans-serif;
+  color: #ff5f01;
+  font-size: 35px;
+}
+
+.giml {
+  
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 35px;
+  
+  }
+
+  .giml strong {
+    color:orange;
+  }
+
+.portrait {
+  background-color: black;
+  color: grey;
+}
+
+.gimli {
+  text-decoration: line-through orange;
+}
+
+.butus {
+  background-color: white;
+  color:orange;
 }
